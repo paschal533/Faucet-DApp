@@ -17,7 +17,7 @@ contract Faucet is Owned, Logger, IFaucet {
     );
     _;
   }
-
+// this is a special function
   receive() external payable {}
 
   function emitLog() public override pure returns(bytes32) {
