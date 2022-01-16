@@ -20,9 +20,9 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Owned.sol\":\"Owned\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Owned.sol\":{\"keccak256\":\"0x7e400e5a8f23cb644488aa6c8da6457a4a4d4c89543cb99f0eb9207454749fa2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b2c50f19bffcdf9b389f461f8af2404c971b0f351b802eaa8c469ee891df0d42\",\"dweb:/ipfs/QmYhBRRWm4Bqx9TEX5tjD1HSguMZGGqV44WAzgZkdTcamW\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555060f78061005f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638da5cb5b14602d575b600080fd5b60336047565b604051603e91906078565b60405180910390f35b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6072816091565b82525050565b6000602082019050608b6000830184606b565b92915050565b6000609a8260a1565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff8216905091905056fea264697066735822122017572cbac5dded3858205f044b6e73622663dd1a0a4fd8a4b84c51b5a5ca4e2064736f6c63430008040033",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80638da5cb5b14602d575b600080fd5b60336047565b604051603e91906078565b60405180910390f35b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6072816091565b82525050565b6000602082019050608b6000830184606b565b92915050565b6000609a8260a1565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff8216905091905056fea264697066735822122017572cbac5dded3858205f044b6e73622663dd1a0a4fd8a4b84c51b5a5ca4e2064736f6c63430008040033",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Owned.sol\":\"Owned\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Owned.sol\":{\"keccak256\":\"0x7e400e5a8f23cb644488aa6c8da6457a4a4d4c89543cb99f0eb9207454749fa2\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b2c50f19bffcdf9b389f461f8af2404c971b0f351b802eaa8c469ee891df0d42\",\"dweb:/ipfs/QmYhBRRWm4Bqx9TEX5tjD1HSguMZGGqV44WAzgZkdTcamW\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555060f78061005f6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80638da5cb5b14602d575b600080fd5b60336047565b604051603e91906078565b60405180910390f35b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6072816091565b82525050565b6000602082019050608b6000830184606b565b92915050565b6000609a8260a1565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff8216905091905056fea264697066735822122095e9ca68e21c0313bb7b91ea84f5db3d6ceacbd5964d1b89853ecdecc650542264736f6c63430008000033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80638da5cb5b14602d575b600080fd5b60336047565b604051603e91906078565b60405180910390f35b60008054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6072816091565b82525050565b6000602082019050608b6000830184606b565b92915050565b6000609a8260a1565b9050919050565b600073ffffffffffffffffffffffffffffffffffffffff8216905091905056fea264697066735822122095e9ca68e21c0313bb7b91ea84f5db3d6ceacbd5964d1b89853ecdecc650542264736f6c63430008000033",
   "immutableReferences": {},
   "generatedSources": [],
   "deployedGeneratedSources": [
@@ -326,9 +326,9 @@
     }
   ],
   "sourceMap": "66:213:4:-:0;;;110:43;;;;;;;;;;138:10;130:5;;:18;;;;;;;;;;;;;;;;;;66:213;;;;;;",
-  "deployedSourceMap": "66:213:4:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;85:20;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;:::o;7:118:6:-;94:24;112:5;94:24;:::i;:::-;89:3;82:37;72:53;;:::o;131:222::-;224:4;262:2;251:9;247:18;239:26;;275:71;343:1;332:9;328:17;319:6;275:71;:::i;:::-;229:124;;;;:::o;359:96::-;396:7;425:24;443:5;425:24;:::i;:::-;414:35;;404:51;;;:::o;461:126::-;498:7;538:42;531:5;527:54;516:65;;506:81;;;:::o",
+  "deployedSourceMap": "66:213:4:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;85:20;;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;:::o;7:118:6:-;94:24;112:5;94:24;:::i;:::-;89:3;82:37;72:53;;:::o;131:222::-;;262:2;251:9;247:18;239:26;;275:71;343:1;332:9;328:17;319:6;275:71;:::i;:::-;229:124;;;;:::o;359:96::-;;425:24;443:5;425:24;:::i;:::-;414:35;;404:51;;;:::o;461:126::-;;538:42;531:5;527:54;516:65;;506:81;;;:::o",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Owned {\n  address public owner;\n\n  constructor() {\n    owner = msg.sender;\n  }\n\n  modifier onlyOwner {\n    require(\n      msg.sender == owner,\n      \"Only owner can call this function\"\n    );\n    _;\n  }\n}\n",
-  "sourcePath": "/Users/filipjerga/blockchain/faucet/contracts/Owned.sol",
+  "sourcePath": "C:\\Users\\TRACE\\Downloads\\faucet-course-main\\faucet-course-main\\contracts\\Owned.sol",
   "ast": {
     "absolutePath": "project:/contracts/Owned.sol",
     "exportedSymbols": {
@@ -365,7 +365,6 @@
           273
         ],
         "name": "Owned",
-        "nameLocation": "75:5:4",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -374,7 +373,6 @@
             "id": 251,
             "mutability": "mutable",
             "name": "owner",
-            "nameLocation": "100:5:4",
             "nodeType": "VariableDeclaration",
             "scope": 273,
             "src": "85:20:4",
@@ -467,7 +465,6 @@
             "kind": "constructor",
             "modifiers": [],
             "name": "",
-            "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 252,
@@ -622,7 +619,6 @@
             },
             "id": 272,
             "name": "onlyOwner",
-            "nameLocation": "166:9:4",
             "nodeType": "ModifierDefinition",
             "parameters": {
               "id": 261,
@@ -636,8 +632,7 @@
           }
         ],
         "scope": 274,
-        "src": "66:213:4",
-        "usedErrors": []
+        "src": "66:213:4"
       }
     ],
     "src": "32:248:4"
@@ -678,7 +673,6 @@
           273
         ],
         "name": "Owned",
-        "nameLocation": "75:5:4",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -687,7 +681,6 @@
             "id": 251,
             "mutability": "mutable",
             "name": "owner",
-            "nameLocation": "100:5:4",
             "nodeType": "VariableDeclaration",
             "scope": 273,
             "src": "85:20:4",
@@ -780,7 +773,6 @@
             "kind": "constructor",
             "modifiers": [],
             "name": "",
-            "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 252,
@@ -935,7 +927,6 @@
             },
             "id": 272,
             "name": "onlyOwner",
-            "nameLocation": "166:9:4",
             "nodeType": "ModifierDefinition",
             "parameters": {
               "id": 261,
@@ -949,19 +940,18 @@
           }
         ],
         "scope": 274,
-        "src": "66:213:4",
-        "usedErrors": []
+        "src": "66:213:4"
       }
     ],
     "src": "32:248:4"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.3",
-  "updatedAt": "2021-08-25T08:25:28.779Z",
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-16T22:03:00.652Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

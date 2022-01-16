@@ -41,7 +41,7 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.8.4+commit.c7e474f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"emitLog\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"test5\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"testNum\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Logger.sol\":\"Logger\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Logger.sol\":{\"keccak256\":\"0xf79deff0312a1d974749e8bfeb2f28b1652dd5419118e8446b24d633c47a1c56\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8c329f829fbcac0d76500d10c660df10038965a9cfeb6b6b2fac971869076d5d\",\"dweb:/ipfs/QmWiRTV3yxDXWxMbY5uuXRuWGfufDYh67DjV6c8Yxb5vSp\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"emitLog\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"test5\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"pure\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"testNum\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Logger.sol\":\"Logger\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Logger.sol\":{\"keccak256\":\"0xf79deff0312a1d974749e8bfeb2f28b1652dd5419118e8446b24d633c47a1c56\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://8c329f829fbcac0d76500d10c660df10038965a9cfeb6b6b2fac971869076d5d\",\"dweb:/ipfs/QmWiRTV3yxDXWxMbY5uuXRuWGfufDYh67DjV6c8Yxb5vSp\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
@@ -50,7 +50,7 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\n// It's a way for designer to say that\n// \"any child of the abstract contract has to implmenet speicifed methods\"\n\nabstract contract Logger {\n\n  uint public testNum;\n\n  constructor() {\n    testNum = 1000;\n  }\n\n  function emitLog() public pure virtual returns(bytes32);\n\n  function test3() internal pure returns(uint) {\n    return 100;\n  }\n\n  function test5() external pure returns(uint) {\n    test3();\n    return 10;\n  }\n}\n",
-  "sourcePath": "/Users/filipjerga/blockchain/faucet/contracts/Logger.sol",
+  "sourcePath": "C:\\Users\\TRACE\\Downloads\\faucet-course-main\\faucet-course-main\\contracts\\Logger.sol",
   "ast": {
     "absolutePath": "project:/contracts/Logger.sol",
     "exportedSymbols": {
@@ -87,7 +87,6 @@
           214
         ],
         "name": "Logger",
-        "nameLocation": "199:6:2",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -96,7 +95,6 @@
             "id": 181,
             "mutability": "mutable",
             "name": "testNum",
-            "nameLocation": "223:7:2",
             "nodeType": "VariableDeclaration",
             "scope": 214,
             "src": "211:19:2",
@@ -178,7 +176,6 @@
             "kind": "constructor",
             "modifiers": [],
             "name": "",
-            "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 182,
@@ -205,7 +202,6 @@
             "kind": "function",
             "modifiers": [],
             "name": "emitLog",
-            "nameLocation": "287:7:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 190,
@@ -222,7 +218,6 @@
                   "id": 192,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 194,
                   "src": "325:7:2",
@@ -288,7 +283,6 @@
             "kind": "function",
             "modifiers": [],
             "name": "test3",
-            "nameLocation": "347:5:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 195,
@@ -305,7 +299,6 @@
                   "id": 197,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 202,
                   "src": "377:4:2",
@@ -407,7 +400,6 @@
             "kind": "function",
             "modifiers": [],
             "name": "test5",
-            "nameLocation": "417:5:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 203,
@@ -424,7 +416,6 @@
                   "id": 205,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 213,
                   "src": "447:4:2",
@@ -457,8 +448,7 @@
           }
         ],
         "scope": 215,
-        "src": "181:307:2",
-        "usedErrors": []
+        "src": "181:307:2"
       }
     ],
     "src": "32:457:2"
@@ -499,7 +489,6 @@
           214
         ],
         "name": "Logger",
-        "nameLocation": "199:6:2",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
@@ -508,7 +497,6 @@
             "id": 181,
             "mutability": "mutable",
             "name": "testNum",
-            "nameLocation": "223:7:2",
             "nodeType": "VariableDeclaration",
             "scope": 214,
             "src": "211:19:2",
@@ -590,7 +578,6 @@
             "kind": "constructor",
             "modifiers": [],
             "name": "",
-            "nameLocation": "-1:-1:-1",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 182,
@@ -617,7 +604,6 @@
             "kind": "function",
             "modifiers": [],
             "name": "emitLog",
-            "nameLocation": "287:7:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 190,
@@ -634,7 +620,6 @@
                   "id": 192,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 194,
                   "src": "325:7:2",
@@ -700,7 +685,6 @@
             "kind": "function",
             "modifiers": [],
             "name": "test3",
-            "nameLocation": "347:5:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 195,
@@ -717,7 +701,6 @@
                   "id": 197,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 202,
                   "src": "377:4:2",
@@ -819,7 +802,6 @@
             "kind": "function",
             "modifiers": [],
             "name": "test5",
-            "nameLocation": "417:5:2",
             "nodeType": "FunctionDefinition",
             "parameters": {
               "id": 203,
@@ -836,7 +818,6 @@
                   "id": 205,
                   "mutability": "mutable",
                   "name": "",
-                  "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
                   "scope": 213,
                   "src": "447:4:2",
@@ -869,19 +850,18 @@
           }
         ],
         "scope": 215,
-        "src": "181:307:2",
-        "usedErrors": []
+        "src": "181:307:2"
       }
     ],
     "src": "32:457:2"
   },
   "compiler": {
     "name": "solc",
-    "version": "0.8.4+commit.c7e474f2.Emscripten.clang"
+    "version": "0.8.0+commit.c7dfd78e.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "3.4.3",
-  "updatedAt": "2021-08-25T08:25:28.777Z",
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-01-16T22:03:00.637Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
