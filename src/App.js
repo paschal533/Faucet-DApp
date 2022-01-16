@@ -14,7 +14,7 @@ function App() {
     contract: null
   })
 
-  const [balance, setBallance] = useState(null)
+  //const [balance, setBallance] = useState(null)
   const [account, setAccount] = useState(null)
   const [shouldReload, reload] = useState(false)
 
