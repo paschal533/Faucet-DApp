@@ -21,8 +21,8 @@ function App() {
   const canConnectToContract = account && web3Api.contract
   const reloadEffect = useCallback(() => reload(!shouldReload), [shouldReload])
 
-//  const setAccountListener = provider => {
- //   provider.on("accountsChanged", _ => window.location.reload())
+  const setAccountListener = provider => {
+  provider.on("accountsChanged", _ => window.location.reload())
     provider.on("chainChanged", _ => window.location.reload())
   }
 
